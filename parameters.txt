@@ -1,0 +1,16 @@
+&parameters
+    prints = .false.
+    seeded = .false.
+    popsize = 50
+    ngen = 5
+    funcname = 'binhkorn'
+    crossover = 'twoptcross'
+    cxpb = 0.8d0
+    distance = 0.05d0
+    unifpb = 0.5d0
+    mutation = 'mutflipbit'
+    flipprob = 0.01d0
+    mutpb = 0.2d0
+    mu = 0.0d0
+    sigma = 1.0d0
+/
